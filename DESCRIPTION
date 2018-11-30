@@ -15,7 +15,7 @@ Description: The Joint Graphical Lasso is a generalized method for
         Graphical Lasso (GGL), which encourages similar network
         structure between classes.  FGL is recommended over GGL for
         most applications. Reference: Danaher P, Wang P, Witten DM. (2013) 
-        doi: [10.1111/rssb.12033]
+        <doi:10.1111/rssb.12033>.
 Depends: igraph
 License: GPL-2
 LazyLoad: yes
