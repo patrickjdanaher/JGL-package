@@ -2,7 +2,7 @@ Package: JGL
 Type: Package
 Title: Performs the Joint Graphical Lasso for sparse inverse covariance
         estimation on multiple classes
-Version: 2.3
+Version: 2.3.0
 Date: 2012-07-20
 Author: Patrick Danaher
 Maintainer: Patrick Danaher <pdanaher@uw.edu>
