@@ -235,7 +235,6 @@ function(x,...)
 .env = "environment: namespace:JGL"
 #UseMethod("plot")
 theta=x$theta
-library(igraph)
 K=length(theta)
 adj = make.adj.matrix(theta)
 diag(adj)=0
