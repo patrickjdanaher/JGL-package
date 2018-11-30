@@ -229,7 +229,7 @@ function(Y,penalty="fused",lambda1,lambda2,rho=1,weights="equal",penalize.diagon
 }
 
 
-S3method(plot, jgl, 
+plot.jgl <-
 function(x,...)
 {
 .env = "environment: namespace:JGL"
@@ -247,7 +247,7 @@ plot(gadj, vertex.frame.color="white",layout=layout.fruchterman.reingold,
 }
 )
 
-S3method(print, jgl, 
+print.jgl <-  
 function(x, ...)
 {
 #	.env = "environment: namespace:JGL"
