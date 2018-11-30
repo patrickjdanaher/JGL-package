@@ -9,7 +9,8 @@ Solve the Joint Graphical Lasso
 }
 \usage{
 JGL(Y,penalty="fused",lambda1,lambda2,rho=1,weights="equal",penalize.diagonal=FALSE,
-maxiter=500,tol=1e-5,warm=NULL,return.whole.theta=FALSE, screening="fast", truncate = 1e-5)
+maxiter=500,tol=1e-5,warm=NULL,return.whole.theta=FALSE, screening="fast",
+truncate = 1e-5)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
