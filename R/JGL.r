@@ -229,7 +229,7 @@ function(Y,penalty="fused",lambda1,lambda2,rho=1,weights="equal",penalize.diagon
 }
 
 
-plot.jgl <-
+S3method(plot, jgl, 
 function(x,...)
 {
 .env = "environment: namespace:JGL"
@@ -246,9 +246,9 @@ E(gadj)$color = 2^(K)-get.edge.attribute(gadj,"weight")
 plot(gadj, vertex.frame.color="white",layout=layout.fruchterman.reingold, 
 	vertex.label=NA, vertex.label.cex=3, vertex.size=1)
 }
+)
 
-
-print.jgl <-
+S3method(print, jgl, 
 function(x, ...)
 {
 #	.env = "environment: namespace:JGL"
@@ -283,5 +283,5 @@ function(x, ...)
 	for(k in 1:K) {norm[k] = sum(abs(x$theta[[k]]))-sum(abs(diag(x$theta[[k]])))}
 	cat("L1 norm of off-diagonal elements of classes' Thetas: ", norm, "\n")
 }
-
+)
 
