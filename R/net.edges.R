@@ -1,7 +1,6 @@
 net.edges <-
 function(theta)
 {
-	library(igraph)
 	adj = make.adj.matrix(theta,separate=TRUE)
 	K = length(theta)
 
