@@ -7,6 +7,7 @@ Joint Graphical Lasso
 \description{
 Runs the Fused Graphical Lasso and the Group Graphical Lasso for network estimation and sparse inverse covariance estimation across multiple classes of data.  
 }
+\details{
 
 The Fused Graphical Lasso (FGL) and the Group Graphical Lasso (GGL) are two methods for estimating sparse inverse covariance matrices that are similar across classes.  
 A motivating example is the analysis of gene expression data from tumor and healthy cells: FGL and GGL allow joint estimation of gene expression conditional dependency networks in both cancer and healthy cells
