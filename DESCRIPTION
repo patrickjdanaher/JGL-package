@@ -17,7 +17,7 @@ Description: The Joint Graphical Lasso is a generalized method for
         most applications. Reference: Danaher P, Wang P, Witten DM. (2013) 
         <doi:10.1111/rssb.12033>.
 Depends: igraph
-License: GPL-2
+License: MIT
 LazyLoad: yes
 Packaged: 2013-04-16 18:21:41 UTC; pdanaher
 NeedsCompilation: no
