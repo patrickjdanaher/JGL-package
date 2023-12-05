@@ -3,7 +3,7 @@ Type: Package
 Title: Performs the Joint Graphical Lasso for Sparse Inverse Covariance
         Estimation on Multiple Classes
 Version: 2.3.2
-Date: 2018-11-30
+Date: 2023-12-04
 Author: Patrick Danaher
 Maintainer: Patrick Danaher <pdanaher@uw.edu>
 Description: The Joint Graphical Lasso is a generalized method for
