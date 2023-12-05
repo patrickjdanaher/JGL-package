@@ -93,7 +93,4 @@ ggl.results = JGL(Y=example.data,penalty="group",lambda1=.15,lambda2=.2,return.w
 str(ggl.results)
 print.jgl(ggl.results)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+
