@@ -37,7 +37,3 @@ fgl.results = JGL(Y=example.data,penalty="fused",lambda1=.25,lambda2=.1)
 net.edges(fgl.results$theta)
 
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
