@@ -4,8 +4,10 @@ Title: Performs the Joint Graphical Lasso for Sparse Inverse Covariance
         Estimation on Multiple Classes
 Version: 2.3.2
 Date: 2023-12-04
-Author: Patrick Danaher
-Maintainer: Patrick Danaher <pdanaher@uw.edu>
+Authors@R: person(given = "Patrick",
+                      family = "Danaher",
+                      role = c("aut", "cre"),
+                      email = "pdanaher@uw.edu")
 Description: The Joint Graphical Lasso is a generalized method for
         estimating Gaussian graphical models/ sparse inverse covariance
         matrices/ biological networks on multiple classes of data.  We
